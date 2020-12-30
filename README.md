@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Firebase 設定
+
+このアプリは認証機能、画像保存、データベースを Firebase で行っています。
+アプリを起動するには Firebase の設定が必要です。
+
+### `.env`
+
+.env ファイルを作成し、.env.sample ファイルを参考に Firebase で取得した各キーを差し替えてください。
+
 ## Available Scripts
 
 In the project directory, you can run:
