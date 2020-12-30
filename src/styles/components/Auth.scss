@@ -1,0 +1,25 @@
+.Auth {
+  &_toggleMode {
+    cursor: pointer;
+    text-align: right;
+    color: #0000ff;
+  }
+  &_modal {
+    text-align: center;
+  }
+  &_reset {
+    cursor: pointer;
+  }
+  &_hiddenIcon {
+    text-align: center;
+    display: none;
+  }
+  &_addIcon {
+    cursor: pointer;
+    color: gray;
+  }
+  &_addIconLoaded {
+    cursor: pointer;
+    color: whitesmoke;
+  }
+}
