@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Firebase 設定
 
-このアプリは認証機能、画像保存、データベースを Firebase で行っています。
+このアプリは認証機能、画像保存、データベースを Firebase で行っています。<br />
 アプリを起動するには Firebase の設定が必要です。
 
 ### `.env`
