@@ -1,0 +1,9 @@
+.Feed {
+  &_feed {
+    flex: 1;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
