@@ -1,2 +1,89 @@
 .Post {
+  &_post {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+  &_avatar {
+    padding: 20px;
+  }
+  &_body {
+    flex: 1;
+    padding: 10px;
+  }
+  &_header > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  &_headerUser {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 12px;
+  }
+  &_headerTime {
+    font-size: 14px;
+    color: gray;
+  }
+  &_tweet {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  &_tweet > p {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  &_tweetImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_tweetImage > img {
+    object-fit: contain;
+    border-radius: 20px;
+    max-height: 250px;
+  }
+  &_commentIcon {
+    margin-top: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  &_comment {
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    margin: 12px;
+  }
+  &_commentUser {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-right: 12px;
+  }
+  &_commentText {
+    font-size: 15px;
+    color: whitesmoke;
+    margin-right: 10px;
+  }
+  &_form {
+    margin: 40px;
+    position: relative;
+    display: flex;
+  }
+  &_input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  &_button {
+    border: none;
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &_buttonDisable {
+    display: none;
+  }
 }

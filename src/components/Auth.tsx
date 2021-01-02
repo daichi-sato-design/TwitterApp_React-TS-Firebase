@@ -180,7 +180,7 @@ const Auth: React.FC = () => {
                   required
                   fullWidth
                   id="username"
-                  label="Username"
+                  label="ユーザーネーム"
                   name="username"
                   autoComplete="username"
                   autoFocus
@@ -215,7 +215,7 @@ const Auth: React.FC = () => {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="メールアドレス"
               name="email"
               autoComplete="email"
               autoFocus
@@ -230,7 +230,7 @@ const Auth: React.FC = () => {
               required
               fullWidth
               name="password"
-              label="Password"
+              label="パスワード"
               type="password"
               id="password"
               autoComplete="current-password"
@@ -268,12 +268,12 @@ const Auth: React.FC = () => {
                     }
               }
             >
-              {isLogin ? "Login" : "Register"}
+              {isLogin ? "ログイン" : "新規登録"}
             </Button>
             <Grid container>
               <Grid item xs>
                 <span className="Auth_reset" onClick={() => setOpenModal(true)}>
-                  Forgot password?
+                  パスワードをお忘れですか?
                 </span>
               </Grid>
               <Grid item>
@@ -281,7 +281,7 @@ const Auth: React.FC = () => {
                   className="Auth_toggleMode"
                   onClick={() => setIsLogin(!isLogin)}
                 >
-                  {isLogin ? "Create new account ?" : "Back to Login"}
+                  {isLogin ? "新規登録はこちら" : "ログインに戻る"}
                 </span>
               </Grid>
             </Grid>
@@ -294,7 +294,7 @@ const Auth: React.FC = () => {
               className={classes.submit}
               onClick={signInGoogle}
             >
-              Sign In With Google
+              Googleアカウントでログイン
             </Button>
           </form>
 
