@@ -12,7 +12,8 @@ RUN mv /usr/src/frontend/node_modules /node_modules
 COPY . .
 
 # 環境変数を設定
-ENV NODE_ENV = development
+# ENV NODE_ENV = development
+ENV NODE_ENV = production
 ENV PORT = 3000
 
 # PORTを設定
