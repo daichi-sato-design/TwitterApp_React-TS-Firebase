@@ -1,6 +1,8 @@
 # TwitterApp_React-TS-Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+このアプリケーションは、<a href="https://www.udemy.com/course/firebase-react-hookstypescriptweb/">こちらの教材</a>を参考にしました。</br>
+React を TypeScript で記述し、Firebase 上にユーザー認証・データベース・画像保存の機能を実装しています。</br>
+Twitter のクローンアプリ制作を通して、React Hooks、Redux ToolKit、TypeScript について学ぶことが目的です。
 
 ## Firebase 設定
 
@@ -12,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 .env ファイルを作成し、.env.sample ファイルを参考に Firebase で取得した各キーを差し替えてください。
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.</br>
 
 In the project directory, you can run:
 
